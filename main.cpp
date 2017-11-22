@@ -49,7 +49,7 @@ typedef struct
     LQNode * rear;
 }LinkQueue;
 
-//------------------------------------------
+
 
 void initstack(SeqStack *S)
 {
@@ -74,7 +74,7 @@ int pop(SeqStack *S,Car *x)
         return(1);
     }
 }
-//------------------------------------------
+
 int initQueue(LinkQueue *Q)
 {
     Q->front=(LQNode *)malloc(sizeof(LQNode));
